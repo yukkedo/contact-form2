@@ -1,0 +1,19 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #E0DFDE;
+    position: relative;
+}
+
+.header__title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: "Noto Serif JP", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #8B7969;
+}

@@ -1,0 +1,85 @@
+.header--link {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    background-color: #F0F0F099;
+    border: 1px solid #D9C6B5;
+    color: #D9C6B5;
+    font-family: "Noto Serif JP", serif;
+    padding: 3px 15px;
+}
+
+body {
+    background-color: #F1ECE7;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+}
+
+.content-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px
+}
+
+.content-title h2 {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #8B7969;
+}
+
+.form {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #C5B9B0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px 150px;
+}
+
+.form__group {
+    margin-top: 40px;
+}
+
+.form__group--title {
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+.form__label {
+    font-family: "Noto Serif JP", serif;
+    color: #8B7969;
+    font-size: 20px;
+}
+
+.form__input {
+    width: 100%;
+    height: 40px;
+    background-color: #F4F4F4;
+    padding: 16px 8px;
+    border: none;
+}
+
+.form__input::placeholder {
+    color: #BEB1A6;
+}
+
+.form__button {
+    margin: 50px auto 30px;
+}
+
+.button--submit {
+    width: 100px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #82756A;
+    padding: 10px 15px;
+    border: none;
+}

@@ -1,0 +1,140 @@
+.content {
+    width: 100%;
+}
+
+.content-title {
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    margin: 50px auto 0;
+}
+
+.content-title h2 {
+    font-weight: 400;
+    font-size: 35px;
+    color: #8B7969;
+}
+
+.form {
+    width: 60%;
+    height: auto;
+    margin: 50px auto 0;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+.form__group--title {
+    width: 30%;
+}
+
+.form__label {
+    color: #8B7969;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__group--content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.form__group--content input {
+    height: 35px;
+    padding: 16px 30px;
+    color: #BEB1A6;
+}
+
+.form__input--name {
+    width: 50%;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.form__input--name:first-child {
+    margin-right: 50px;
+}
+
+.form__input--gender {
+    width: 4%;
+    margin-right: 10px;
+    margin-left: 50px;
+    color: #8B7969;
+}
+
+.form__input--gender:first-child {
+    margin-left: 0;
+}
+
+.gender-label {
+    color: #8B7969;
+}
+
+.form__input--email,
+.form__input--address,
+.form__input--building {
+    width: 100%;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.form__input--tel {
+    width: 40%;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.form__input--tel:first-child {
+    margin-left: 0;
+}
+
+.form__input--tel:last-child {
+    margin-right: 0;
+}
+
+.form__group--content select {
+    width: 50%;
+    height: 100%;
+    padding: 8px 30px;
+    background-color: #F4F4F4;
+    border: none;
+    color: #BEB1A6;
+}
+
+.form__group--content-textarea {
+    width: 70%;
+}
+
+.form__group--content-textarea textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 16px 30px;
+    background-color: #F4F4F4;
+    border: none;
+    color: #BEB1A6;
+}
+
+.form__button {
+    margin: 100px auto 30px;
+    height: 40px;
+    text-align: center;
+}
+
+.button--confirm {
+    width: 100px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #82756A;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}

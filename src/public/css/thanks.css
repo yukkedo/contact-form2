@@ -1,0 +1,40 @@
+body {
+    font-family: "Noto Serif JP", serif;
+}
+
+.content {
+    position: relative;
+}
+
+h1 {
+    color: #8B79690D;
+    width: 100%;
+    height: 100%;
+    font-size: 220px;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    color: #8B7969;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}
+
+a {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #82756A;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}

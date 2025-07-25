@@ -1,0 +1,162 @@
+.header--link {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    background-color: #F0F0F099;
+    border: 1px solid #D9C6B5;
+    color: #D9C6B5;
+    padding: 3px 15px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content-title {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin: 50px auto 0;
+}
+
+.content-title h2 {
+    font-weight: 400;
+    font-size: 35px;
+    color: #8B7969;
+}
+
+.search-area {
+    width: 80%;
+    height: 40px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__text {
+    width: 300px;
+    padding: 8px 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #E3DED9;
+    color: #BEB1A6;
+}
+
+.search__gender {
+    width: 80px;
+    padding: 8px 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #E3DED9;
+    color: #BEB1A6;
+}
+
+.search__contact {
+    width: 200px;
+    padding: 8px 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #E3DED9;
+    color: #BEB1A6;
+}
+
+.search__date {
+    width: 130px;
+    padding: 8px 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #E3DED9;
+    color: #BEB1A6;
+}
+
+.search__button {
+    width: 100px;
+    background-color: #82756A;
+    color: #FFFFFF;
+    border: 1px solid #8B7969;
+}
+
+.search__clear {
+    width: 100px;
+    background-color: #D9C6B5;
+    color: #FFFFFF;
+    border: 1px solid #D9C6B5;
+}
+
+.other-area {
+    width: 80%;
+    height: 40px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.export-button {
+    background-color: #E1DBD699;
+    border: none;
+    color: #8B7969;
+    width: 150px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form-list {
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid #E0DFDE;
+}
+
+.table__row--title {
+    background-color: #8B7969;
+}
+
+.header-name,
+.header-gender,
+.header-email,
+.header-contact {
+    color: #FFFFFF;
+    font-weight: 700;
+    height: 50px;
+}
+
+.table__row--item {
+    height: 50px;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.header-name,
+.data-name {
+    width: 180px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.header-gender,
+.data-gender {
+    width: 130px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.header-email,
+.data-email,
+.header-contact,
+.data-contact {
+    width: 280px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.header-null,
+.data-detail {
+    padding-right: 50px;
+    text-align: right;
+}
+
+.detail {
+    background-color: #F4F4F44D;
+    border: 1px solid #D9C6B599;
+    color: #D9C6B5;
+    text-decoration: none;
+    padding: 5px 16px;
+    width: 70px;
+}

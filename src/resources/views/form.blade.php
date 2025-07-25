@@ -102,7 +102,7 @@
             </div>
             <div class="form__group--content">
                 <select name="" id="">
-                    <option value="">選択してください</option>
+                    <option value="" selected hidden>選択してください</option>
                     <option value=""></option>
                 </select>
             </div>
